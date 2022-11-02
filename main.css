@@ -1,3 +1,25 @@
-html{
-    font-family: 'Times New Roman', Times, serif;
+
+* {font-family: 'Times New Roman', Times, serif;}
+
+img {
+    max-width: 5 em;
+    float: right
+}
+h1 {
+    text-align: center;
+}
+h1 {
+    color: #24c7b6
+}
+h1 {
+    background-color: darkblue;
+}
+h2 {
+    color:blueviolet
+}
+h3 {
+    color:blueviolet
+}
+h4 { 
+    color:blueviolet
 }
