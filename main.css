@@ -1,13 +1,16 @@
 
 * {font-family: 'Times New Roman', Times, serif;}
 
+
+
+
 img {
-    max-width:2 em;
+    max-width:1 em;
     float: right
 }
 h1 {
     text-align: center;
-    color: #c724bc
+    color: #4dc724
 }
 h2 {
     color:blueviolet
