@@ -3,11 +3,11 @@
 
 img {
     max-width:5 em;
-    float: left
+    float: right
 }
 h1 {
     text-align: center;
-    color: #24c7b6
+    color: #c724bc
 }
 h2 {
     color:blueviolet
@@ -17,4 +17,7 @@ h3 {
 }
 h4 { 
     color:blueviolet
+}
+h5 {
+    color: blueviolet;
 }
