@@ -1,9 +1,5 @@
 
 * {font-family: 'Times New Roman', Times, serif;}
-*{background-color: beige;}
-
-
-
 
 img {
     max-width:1 em;
@@ -11,7 +7,7 @@ img {
 }
 h1 {
     text-align: center;
-    color: #4dc724
+    color: #c79e24
 }
 h2 {
     color:blueviolet
@@ -25,3 +21,4 @@ h4 {
 h5 {
     color: blueviolet;
 }
+*{background-color: bisque;}
