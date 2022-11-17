@@ -1,0 +1,26 @@
+.flexbox-container{
+    display: flex;
+}
+.flexbox-item{
+    width: 300px;
+    margin: 30px;
+    border: 10px solid #ffd300;
+    background-color: aliceblue;
+}
+.flexbox-item-1{
+    height: 200px;
+}
+.flexbox-item-2{
+    height: 250px;
+}
+.flexbox-item-3{
+    height: 900px;
+    width: 1200px;
+}
+
+.profile-image{
+    float: center;
+}
+h1,h2{
+    font-size: 12px;
+}

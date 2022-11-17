@@ -1,0 +1,27 @@
+.flexbox-container{
+    display: flex;
+}
+
+.flexbox-item{
+    width: 358px;
+    margin: 30px;
+    border: 10px solid #ffd300;
+    background-color: aliceblue;
+}
+
+.flexbox-item-1{
+    height: 300px;
+}
+.flexbox-item-2{
+    height: 478px;
+}
+.flexbox-item-3{
+    height: 887px;
+    width: 498px;
+}
+.profile-image{
+    float: center;
+}
+.profile-image1{
+    float: center;
+}
