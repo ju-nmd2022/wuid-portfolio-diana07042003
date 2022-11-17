@@ -1,0 +1,15 @@
+.flexbox-container{
+    display: flex;
+}
+.flexbox-item-1{
+    width: 900px;
+    height: 140px;
+    margin: 30px;
+    border: 10px solid #ffd300;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
