@@ -1,14 +1,39 @@
-
 * {font-family: 'Times New Roman', Times, serif;}
 
 img {
     max-width:1 em;
-    float: right
+    float: right;
+    
+    transform: translate(-50%, -50%);
+    animation: myfirst 1.5s infinite linear;
 }
-h1 {
-    text-align: center;
-    color: #c79e24
+@keyframes myfirst{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
 }
+
+@keyframes animate
+{
+    0%,10%,100%
+    {
+width: 0;
+    }
+
+    70%,90%
+    {
+        width: 100%;
+    }
+
+
+
+
+
+ }
 h2 {
     color:blueviolet
 }
@@ -22,3 +47,41 @@ h5 {
     color: blueviolet;
 }
 *{background-color: bisque;}
+
+h1{
+    position: relative;
+    margin: 0;
+    font-size: 4em;
+    font-weight: 900;
+    color: blueviolet;
+    z-index: 1;
+    overflow:hidden;
+}
+
+h1::before
+{
+    content: '';
+    position: absolute;
+    left: 120;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, #ffe4c4 5%, #ffe4c4 100%);
+    animation: animate 5.5s linear forwards;
+}
+
+@keyframes animate
+ {
+    0%
+    {
+        left:110%
+    }
+    100%
+    {
+        left: -20%;
+    }
+ }
+
+ h1 span
+ {
+    color: blue;
+ }
